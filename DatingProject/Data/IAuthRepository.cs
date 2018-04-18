@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DatingProject.Models;
-//using DatingProject.Models; // Need the User Reference
+//using DatingProject.Models;
+using DatingProject.Models; // Need the User Reference
 
 namespace DatingProject.Data
 {
