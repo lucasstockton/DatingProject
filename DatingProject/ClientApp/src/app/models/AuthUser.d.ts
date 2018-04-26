@@ -4,7 +4,7 @@ declare var authUser: AuthUser;
 
 export interface AuthUser
 {
-  tokenString: String;
+  tokenString: string;
   user: User;
 }
 

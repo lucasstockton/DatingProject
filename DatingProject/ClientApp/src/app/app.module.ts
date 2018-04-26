@@ -8,7 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
-import { AuthService } from './services/auth.service';
+//import { AuthService } from './services/auth.service';
 
 
 @NgModule({
@@ -23,7 +23,7 @@ import { AuthService } from './services/auth.service';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [AuthService],
+ // providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
